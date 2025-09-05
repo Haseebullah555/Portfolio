@@ -8,6 +8,8 @@ import HelperSection from './components/HelperSection'
 import SkillsMain from './components/skillsSection/SkillsMain'
 import SubSkills from './components/skillsSection/SubSkills'
 import ExperienceMain from './components/experienceSection/ExperienceMain'
+import ProjectsMain from './components/projectSection/ProjectsMain'
+import ContactMeMain from './components/contactMeSection/ContactMeMain'
 
 function App() {
   const [count, setCount] = useState(0)
@@ -20,6 +22,8 @@ function App() {
     <SkillsMain/>
     <SubSkills/>
     <ExperienceMain/>
+    <ProjectsMain/>
+    <ContactMeMain/>
     <HelperSection/>
   </main>
 }
